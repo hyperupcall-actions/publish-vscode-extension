@@ -1,8 +1,10 @@
 # Publish VS Code Extension &#8212; GitHub Action
 
-[![Build, Lint, Test and Deploy](https://img.shields.io/github/actions/workflow/status/HaaLeo/publish-vscode-extension/CI.yml?style=flat-square&label=Lint%2C%20Build%2C%20Test%20and%20Deploy)](https://github.com/HaaLeo/publish-vscode-extension/actions?query=workflow%3A%22Build%2C+Lint%2C+Test+and+Deploy%22) [![Coverage Status](https://img.shields.io/coveralls/github/HaaLeo/publish-vscode-extension?style=flat-square)](https://coveralls.io/github/HaaLeo/publish-vscode-extension)  
-[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://raw.githubusercontent.com/HaaLeo/publish-vscode-extension/master/LICENSE.txt) [![Stars](https://img.shields.io/github/stars/HaaLeo/publish-vscode-extension.svg?label=Stars&logo=github&style=flat-square)](https://github.com/HaaLeo/publish-vscode-extension/stargazers)  
+[![Build, Lint, Test and Deploy](https://img.shields.io/github/actions/workflow/status/HaaLeo/publish-vscode-extension/CI.yml?style=flat-square&label=Lint%2C%20Build%2C%20Test%20and%20Deploy)](https://github.com/HaaLeo/publish-vscode-extension/actions?query=workflow%3A%22Build%2C+Lint%2C+Test+and+Deploy%22) [![Coverage Status](https://img.shields.io/coveralls/github/HaaLeo/publish-vscode-extension?style=flat-square)](https://coveralls.io/github/HaaLeo/publish-vscode-extension)
+[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://raw.githubusercontent.com/HaaLeo/publish-vscode-extension/master/LICENSE.txt) [![Stars](https://img.shields.io/github/stars/HaaLeo/publish-vscode-extension.svg?label=Stars&logo=github&style=flat-square)](https://github.com/HaaLeo/publish-vscode-extension/stargazers)
 [![Donate](https://img.shields.io/badge/☕️-Buy%20Me%20a%20Coffee-blue.svg?&style=flat-square)](https://www.paypal.me/LeoHanisch/3eur)
+
+NOTE: This is a hard FORK of [publish-vscode-extension](https://github.com/HaaLeo/publish-vscode-extension).
 
 GitHub action to publish your VS Code Extension to the [Open VSX Registry](https://open-vsx.org/) or the [Visual Studio Marketplace](https://marketplace.visualstudio.com).
 
@@ -74,7 +76,7 @@ Therefore, I heavily encourage you to publish an extension with a (permissive) l
 
 ### Visual Studio Marketplace
 
-In order to upload your extension to the VS Marketplace you need to set the `pat` option to the corresponding [access token](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#get-a-personal-access-token). 
+In order to upload your extension to the VS Marketplace you need to set the `pat` option to the corresponding [access token](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#get-a-personal-access-token).
 Further, the `registryUrl` must be set to `https://marketplace.visualstudio.com`.
 
 
@@ -108,11 +110,11 @@ The action exposes the following outputs:
 
 ## Contribution
 
-If you found a bug or are missing a feature do not hesitate to [file an issue](https://github.com/HaaLeo/publish-vscode-extension/issues/new/choose).  
+If you found a bug or are missing a feature do not hesitate to [file an issue](https://github.com/HaaLeo/publish-vscode-extension/issues/new/choose).
 Pull Requests are welcome!
 To get started submitting code changes please take a look at the [CONTRIBUTING.md](./CONTRIBUTING.md) file first.
 
 ## Support
 
-When you like this extension make sure to [star the repo](https://github.com/HaaLeo/publish-vscode-extension/stargazers). I am always looking for new ideas and feedback.  
+When you like this extension make sure to [star the repo](https://github.com/HaaLeo/publish-vscode-extension/stargazers). I am always looking for new ideas and feedback.
 In addition, it is possible to [donate via paypal](https://www.paypal.me/LeoHanisch/3eur).
